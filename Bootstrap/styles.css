@@ -1,0 +1,274 @@
+/* FONT-AWESOME */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+   /* BODY */
+body{
+    font-family: montserrat;
+    box-sizing: border-box;
+     overflow-x: hidden;
+    
+}
+
+/* TITLE  AND NAVBAR*/
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.i{
+    padding-top: 30px;
+}
+
+.ull{
+    margin-left: auto;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-link:hover{
+   color: #ef8172;
+}
+h1{
+    font-family: montserrat-black;
+    font-size: 3.5rem;
+    padding-left: 0 ;
+    line-height: 1.5;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.btn{
+    margin-bottom: 30px;
+}
+#nav-links{
+    color: #fff;
+    text-decoration: none;
+    margin-top: -5px;
+}
+#nav-link{
+    font-size: 1.2rem;
+    font-family: montserrat-light;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.btn1{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn2{
+    background-color: #ff4c68;
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+    /* FEATURES */
+    #features{
+        padding: 7% 15%;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .icon{
+        color: #ef8172;
+        margin-bottom: 10px;
+    }
+
+    .icon:hover{
+      color: #ff4c68;
+    }
+
+    .features-block{
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    p{
+        color: #8f8f8f;
+    }
+
+    h3{
+        font-family: ubuntu;
+    }
+
+    #testimonials{
+        background-color: #ef8172;
+        text-align: center;
+        font-family: montserrat-bold;
+        color: #fff;
+    }
+    .testimonial-text{
+        font-size: 3rem;
+        font-family: ubuntu;
+    }
+    
+    .ebi{
+        background-color: none;
+    }
+    .carousel-item{
+        padding: 7% 15%;
+    }
+
+    .testimonial-image{
+        width: 10%;
+        border-radius: 100%;
+        margin: 10px;
+    }
+
+    /* PRESS */
+
+    #press{
+        background-color: #ef8172;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+
+    .press-img{
+        width: 15%;
+        margin: 20px 20px 50px;
+    }
+
+             /* PRICING */
+    #pricing{
+        padding: 7% 15%;
+        font-family: montserrat-black;
+        font-weight: bold;
+        font-size: 1.5rem;
+    } 
+    
+    .ebi{
+        background-color: #ef8172;
+        border: none;
+    }
+
+     .pricing-text{
+         text-align: center;
+     }
+    
+     .price-text{
+         font-size: 3rem;
+         line-height: 1.5;
+         font-family: montserrat-bold;
+     }
+    .card{
+        margin: 20px;
+    }
+
+    .card-group{
+        text-align: center;
+    }
+    .card-btn{
+        border: 1px solid black ;
+    }
+   .col-6{
+    max-width: 100%;
+    font-family: montserrat-black;
+    font-weight: bold;
+    font-size: 1.3rem;
+   }
+
+        /* FOOTER */
+    #footer{
+        background-color: #fff;
+        /* height: 450px; */
+        text-align: center;
+        padding: 7% 15%;
+    }    
+
+    .footer-text{
+     /* padding-top: 10px; */
+     color: #8f8f8f;
+    }
+
+    .footer-text:hover{
+        color:navajowhite ;
+    }
+
+    .footer-icon{
+        padding: 10px;
+    }
+
+
+    /* CALL TO  ACTION */
+
+  #cta{
+      background-color: #ff4c68;
+      font-family: montserrat-black;
+      color: #fff;
+      text-align: center;
+      padding: 7% 15%;
+     
+  } 
+  
+  #cta h3{
+      line-height: 1.5;
+      font-size: 3.5rem;
+      font-weight: bold;
+      /* font-family: montserrat-black; */
+      /* padding-right: 100px; 
+      padding-left: 100px; */
+  }
+
+  .cta-apple{
+      background-color: #000;
+      color: #fff;
+      font-family: ubuntu;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 10px;
+      border: none;
+  }
+
+  .icons{
+      margin-top: 30px;
+  }
+
+  .cta-play{
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-family: ubuntu;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+}
+
+@media (max-width:1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
